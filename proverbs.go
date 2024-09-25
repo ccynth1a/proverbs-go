@@ -15,6 +15,7 @@ const (
   lineLimit int = 40
 )
 
+// currently redundant, kept it in just in case
 func filterTextFiles(files *[]os.FileInfo) []os.FileInfo {
   var textFiles []os.FileInfo
   for _, file := range *files {
